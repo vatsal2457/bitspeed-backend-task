@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const sequelize = require('./db');
 const Contact = require('./models/contact');
