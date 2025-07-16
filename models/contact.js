@@ -38,6 +38,4 @@ const Contact = sequelize.define('Contact', {
   timestamps: false,
 });
 
-module.exports = sequelize;
-
 module.exports = Contact;
